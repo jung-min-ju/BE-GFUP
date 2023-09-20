@@ -17,20 +17,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/auth")
 public class AuthController {
 
-    private final UserServiceImpl userService;
 
-    @PostMapping("/register")
-    public ResponseEntity<?>register(@RequestBody UserDTO userDTO) {
-        return null;
-    }
-
-    @PostMapping("/login")
-    public ResponseEntity<?>login(@RequestBody LoginDTO loginDTO) {
-        return null;
-    }
-
-    @PostMapping("/logout")
-    public ResponseEntity<?>logout() {
-        return null;
-    }
 }

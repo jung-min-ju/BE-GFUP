@@ -8,22 +8,24 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.w3c.dom.Text;
 
 @Entity
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class AlarmInfo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String email;
-    private String password;
-    private String phoneNumber;
-    private String alarmEmail;
-    private String alarmPhoneNum;
-
+    private int date;
+    private int time;
+    private int repeat;
+    private String name;
+    private Text message;
+    private String method;
 
 }

@@ -23,9 +23,9 @@ public class AlarmInfo {
 
     private int date;
     private int time;
-    private int repeat;
+    private int repeats;
     private String name;
-    private Text message;
+    private String message;
     private String method;
 
 }

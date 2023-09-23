@@ -1,4 +1,4 @@
 package com.backend.GFUP.service;
 
-public interface AuthService {
+public class AuthService {
 }
